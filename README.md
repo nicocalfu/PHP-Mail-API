@@ -1,2 +1,4 @@
 # PHP-Mail-API
 Se trata de un Cron Job que se ejecuta a diario y consume la API de una empresa especializada en el análisis de frutas. Su objetivo es verificar si se ha publicado un nuevo informe de análisis de frutas y, en caso afirmativo, enviar un correo electrónico al encargado.
+
+![Descripción de la imagen](images/aiplugin_f738c2c1-9ca2-490d-a588-bf7dd02038cc.png)
