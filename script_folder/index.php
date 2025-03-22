@@ -42,7 +42,7 @@ $mail->AddAddress(Configuracion_Correo::obtenerConfiguracion()["CorreoDestinatar
 // Definir correo tipo HTML
 $mail->isHTML(true);
 
-#conectar a la bd de san jose farms
+#conectar a la bd
 $config = ConfiguracionBD::obtenerConfiguracion(); // Verifica que este método funcione correctamente
 $conn = conectarBD($config['db_host'], $config['db_user'], $config['db_pass'], $config['db_name']);
 
